@@ -1,0 +1,9 @@
+diff a/client/application/views/client/report/success_report.php b/client/application/views/client/report/success_report.php	(rejected hunks)
+@@ -8,6 +8,7 @@
+ $green_img = base_url().'assets/client/images/marks/green.png';
+ $verifiy_img = base_url().'assets/client/images/marks/verify.png';
+ 
++
+ $form_analyst_status = array();
+ if (count($candidate_status) > 0) { 
+     foreach ($candidate_status as $kc => $comp) {

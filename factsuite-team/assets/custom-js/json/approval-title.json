@@ -1,0 +1,15 @@
+[
+    {  
+        "id": 1,
+        "name": "Addition/ Deletion of Client" 
+    }, {  
+        "id": 2,
+        "name": "Client rate creation/ change" 
+    }, {  
+        "id": 3,
+        "name": "Additional Verification Fee" 
+    }, {  
+        "id": 4,
+        "name": "Addition/ Deletion of CRM users"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {  
+        "id": 0,
+        "code": "client_clarification",
+        "name": "Client Clarification"
+    },
+    {  
+        "id": 1,
+        "code": "insufficiency",
+        "name": "Insuff"
+    },
+    {
+        "id": 2,
+        "code": "form_not_filled_by_candidate",
+        "name": "Form Not Filled by Candidate"
+    }
+]

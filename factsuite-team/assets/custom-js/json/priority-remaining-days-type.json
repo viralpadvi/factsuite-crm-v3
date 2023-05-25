@@ -1,0 +1,17 @@
+[
+    {  
+        "id": 1,
+        "code": "less_than",
+        "name": "Less Than"
+    },
+    {
+        "id": 2,
+        "code": "more_than",
+        "name": "More Than"
+    },
+    {
+        "id": 3,
+        "code": "equal_to",
+        "name": "Equal To"
+    }
+]

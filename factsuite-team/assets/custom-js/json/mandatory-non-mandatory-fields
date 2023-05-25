@@ -1,0 +1,6 @@
+{
+	id: 1,
+	field_name: "title",
+	mandatory_non_mandatory_configurable: 1,
+	
+}

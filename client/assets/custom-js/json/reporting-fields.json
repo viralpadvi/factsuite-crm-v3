@@ -1,0 +1,89 @@
+[
+    {   
+        "name": "Case Id",
+        "field": "candidate_id"
+    },
+    {   
+        "name": "Client Name",
+        "field": "client_name"
+    } ,
+    {   
+        "name": "First Name",
+        "field": "first_name"
+    } ,
+    {   
+        "name": "Last Name",
+        "field": "last_name"
+    } ,
+    {   
+        "name": "Father Name",
+        "field": "father_name"
+    } ,
+    {   
+        "name": "Phone Number",
+        "field": "phone_number"
+    } ,
+    {   
+        "name": "Email",
+        "field": "email_id"
+    } ,
+    {   
+        "name": "Date Of Birth",
+        "field": "date_of_birth"
+    } ,
+    {   
+        "name": "Init Date",
+        "field": "case_submitted_date"
+    } ,
+    {   
+        "name": "Component Name",
+        "field": "component_name"
+    } ,
+    {   
+        "name": "Verification Status",
+        "field": "analyst_status"
+    } ,
+    {   
+        "name": "Employee Id",
+        "field": "employee_id"
+    } ,
+    {   
+        "name": "Output Status",
+        "field": "output_status"
+    } ,
+    {   
+        "name": "Assigned Role",
+        "field": "assigned_role"
+    } , 
+    {   
+        "name": "Assigned to analyst/Specialist",
+        "field": "assigned_team_name"
+    } ,{   
+        "name": "Case Completed Date",
+        "field": "report_generated_date"
+    } ,
+    {   
+        "name": "Verification Remarks",
+        "field": "verification_remarks"
+    }  ,
+    {   
+        "name": "Insuff Remarks",
+        "field": "insuff_remarks"
+    }  ,
+    {   
+        "name": "Insuff Closure Remarks",
+        "field": "insuff_closure_remarks"
+    }  ,
+    {   
+        "name": "Insuff Date",
+        "field": "insuff_created_date"
+    },
+    {   
+        "name": "Insuff Close Date",
+        "field": "insuff_close_date"
+    },
+    {   
+        "name": "Verification fee",
+        "field": "verifier_fee"
+    } 
+]

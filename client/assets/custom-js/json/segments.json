@@ -1,0 +1,17 @@
+[
+    {  
+        "id": 1,
+        "code": "fresher",
+        "name": "Fresher"
+    },
+    {  
+        "id": 2,
+        "code": "mid_level",
+        "name": "Mid Level"
+    },
+    {
+        "id": 3,
+        "code": "senior_level",
+        "name": "Senior Level"
+    }
+]

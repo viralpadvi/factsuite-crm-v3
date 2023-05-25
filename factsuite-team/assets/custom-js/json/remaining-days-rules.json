@@ -1,0 +1,23 @@
+[
+    {  
+        "id": 1,
+        "code": "less_than",
+        "name": "Less Than",
+        "symbol": "<",
+        "db_symbol": "<"
+    },
+    {
+        "id": 2,
+        "code": "more_than",
+        "name": "More Than",
+        "symbol": ">",
+        "db_symbol": ">"
+    },
+    {
+        "id": 3,
+        "code": "equal_to",
+        "name": "Equal To",
+        "symbol": "==",
+        "db_symbol": "="
+    }
+]

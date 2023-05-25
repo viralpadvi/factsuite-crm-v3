@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "timezones.json": "^1.6.1"
+  }
+}

@@ -1,0 +1,176 @@
+
+[
+    {  
+        "id": 0,
+        "name": "Duplicate entries",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 1,
+        "name": "Invalid information",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 2,
+        "name": "Incomplete Information",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 3,
+        "name": "Onboarding Pending ",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 4,
+        "name": "SLA not signed",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 5,
+        "name": "Rejected by management",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 6,
+        "name": "Other administrative reasons",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 7,
+        "name": "Contract will be renewed",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 8,
+        "name": "Temprorily on hold",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 9,
+        "name": "SPOC Change",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 10,
+        "name": "No response from client",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 11,
+        "name": "Privacy and Security Concerns",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 12,
+        "name": "Others",
+        "status": "1",
+        "flag": "1"
+    },{  
+        "id": 13,
+        "name": "Exceeds minimum threshold",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 14,
+        "name": "Market Constraints",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 15,
+        "name": "Lower Profit Margin",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 16,
+        "name": "Lacks Justification",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 17,
+        "name": "Recent Price changes",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 18,
+        "name": "Others",
+        "status": "2",
+        "flag": "0"
+    },{  
+        "id": 19,
+        "name": "Lack of clarity",
+        "status": "3",
+        "flag": "0"
+    }, {  
+        "id": 20,
+        "name": "Insufficient information ",
+        "status": "3",
+        "flag": "0"
+    }, {  
+        "id": 21,
+        "name": "Unreasonable fee amount",
+        "status": "3",
+        "flag": "0"
+    }, {  
+        "id": 22,
+        "name": "Insufficient funds ",
+        "status": "3",
+        "flag": "0"
+    } , {  
+        "id": 23,
+        "name": "Incomplete or incorrect request ",
+        "status": "3",
+        "flag": "0"
+    } , {  
+        "id": 24,
+        "name": "Others",
+        "status": "3",
+        "flag": "0"
+    } ,
+ 
+     {  
+        "id": 25,
+        "name": "Maximum Licenses consumed",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 26,
+        "name": "Insufficient user permissions",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 27,
+        "name": "Incomplete or incorrect request",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 28,
+        "name": "Data Privacy and Security Concerns",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 29,
+        "name": "Others",
+        "status": "4",
+        "flag": "0"
+    } ,{  
+        "id": 30,
+        "name": "User Dependencies",
+        "status": "4",
+        "flag": "1"
+    } , {  
+        "id": 31,
+        "name": "Data Privacy and Security Concerns",
+        "status": "4",
+        "flag": "1"
+    } , {  
+        "id": 32,
+        "name": "Incomplete or incorrect request",
+        "status": "4",
+        "flag": "1"
+    }  , {  
+        "id": 33,
+        "name": "Others",
+        "status": "4",
+        "flag": "1"
+    } 
+]

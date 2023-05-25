@@ -1,0 +1,22 @@
+{
+	"crm_prod_db":"ZmFjdHN1aXRlX2NybQ==",
+	"crm_staging_db":"ZmFjdHN1aXRlLWNybS1zdGFnaW5n",
+	"crm_uat_db":"ZmFjdHN1aXRlX2NybQ==",
+	"crm_local_db":"ZmFjdHN1aXRlX2NybQ==", 
+	"web_prod_db":"ZmFjdHN1aXRlLW1haW4td2Vic2l0ZQ==",
+	"web_staging_db":"ZmFjdHN1aXRlLW1haW4td2Vic2l0ZS1zdGFnaW5n",
+	"web_uat_db":"ZmFjdHN1aXRlLW1haW4td2Vic2l0ZQ==",
+	"web_local_db":"ZmFjdHN1aXRlLW1haW4td2Vic2l0ZQ==", 
+	"prod_host":"ZmFjdHN1aXRlX2NybQ==",
+	"staging_host":"ZmFjdHN1aXRlX2NybQ==",
+	"uat_host":"bG9jYWxob3N0",
+	"local_host":"ZmFjdHN1aXRlX2NybQ==", 
+	"prod_user":"Y3JtYXBw",
+	"staging_user":"cG1hdXNlcg==",
+	"uat_user":"cm9vdA==",
+	"local_user":"cm9vdA==", 
+	"prod_pass":"RmFjdHN1aXRlQEAzMjE=",
+	"staging_pass":"RmFjdHN1aXRlQDEyMw==",
+	"uat_pass":"UmlheWF0c2Fhd3MkMjY=",
+	"local_pass":"" 
+}

@@ -1,0 +1,62 @@
+[
+  	{
+  		"id" : "1",
+    	"template_name": "Client Registration"
+  	},
+  	{
+  		"id" : "2",
+    	"template_name": "Client OTP"
+  	},
+  	{
+  		"id" : "3",
+    	"template_name": "Initiate Case"
+  	},
+  	{ 
+  		"id" : "4",
+    	"template_name": "Client Reset"
+  	},
+  	{
+  		"id" : "5",
+    	"template_name": "Completion of Case Processing by FS Team"
+  	},
+  	{
+  		"id" : "6",
+    	"template_name": "Insuff Email to Client"
+  	},
+  	{
+  		"id" : "7",
+    	"template_name": "Client Clarification to Client"
+  	},
+  	{
+  		"id" : "8",
+    	"template_name": "Request Addition/ Deletion of Client"
+  	},
+  	{
+  		"id" : "9",
+    	"template_name": "Accept / Reject Addition/ Deletion of Client"
+  	},
+  	{
+  		"id" : "10",
+    	"template_name": "Request Client rate creation/ change"
+  	},
+  	{
+  		"id" : "11",
+    	"template_name": "Accept / Reject Client rate creation/ change"
+  	},
+  	{
+  		"id" : "12",
+    	"template_name": "Request Additional Verification Fee"
+  	},
+  	{
+  		"id" : "13",
+    	"template_name": "Accept / Reject Additional Verification Fee"
+  	},
+  	{
+  		"id" : "14",
+    	"template_name": "Request Addition/ Deletion of CRM users"
+  	},
+  	{
+  		"id" : "15",
+    	"template_name": "Accept / Reject Addition/ Deletion of CRM users"
+  	}
+]

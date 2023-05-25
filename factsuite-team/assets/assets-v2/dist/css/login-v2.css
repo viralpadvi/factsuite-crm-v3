@@ -1,0 +1,149 @@
+body {
+	font-family: 'Rubik';
+	background: linear-gradient(254.38deg, #3D2580 12.56%, #6947CB 93.71%);
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+}
+
+* {
+	outline: 0;
+}
+
+.carousel {
+	margin-top: 80px;
+}
+
+.carousel-item img {
+	align-items: center;
+}
+
+.carousel-indicators {
+	bottom: -75px;
+}
+
+.carousel-item {
+	height: 500px;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.carousel-indicators .active {
+	background-color: #f29d1f;
+}
+
+.img-top-desc {
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.img-btm-desc {
+	margin-top: 25px;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: 200;
+}
+
+.learn-more-btn-div {
+	margin-top: 20px;
+}
+
+.learn-more-btn,
+.learn-more-btn:hover {
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.login-card {
+	background: #FFFFFF;
+	border-radius: 20px;
+	width: 85%;
+	margin: auto;
+	margin-top: 60px;
+	padding: 50px 20px;
+}
+
+.logo-img-div {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.logo-img-div img {
+	width: 60%;
+}
+
+.login-details-div {
+	margin-bottom: 20px;
+}
+
+.login-field {
+	border: 1px solid rgba(205, 205, 205, 0.45);
+	padding: 15px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.error-msg-small {
+	font-size: 13px;
+}
+
+.forgot-pswd-a, .forgot-pswd-a:hover {
+	color: #4427A9;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.login-btn-div {
+	margin-top: 20px;
+}
+
+.login-btn {
+	background: #613C86;
+	width: 100%;
+	color: #FFFFFF;
+	border: 0;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.footer {
+	margin-top: 20px;
+	color: #4D4D4F;
+	text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+	.carousel {
+		margin-top: 120px;
+	}
+
+	.login-card {
+		margin-top: 120px;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.carousel {
+		margin-top: 150px;
+	}
+
+	.login-card {
+		margin-top: 150px;
+	}
+
+	.login-card {
+		width: 85%;
+	}
+}

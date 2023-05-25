@@ -1,0 +1,990 @@
+html, body {
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    outline: 0;
+}
+
+.bg-colored {
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    padding: 15px 1rem;
+}
+
+.hdr-logo {
+    width: 80%;
+}
+
+.body-header {
+    background-color: #FFFFFF;
+}
+
+.body-header .container-fluid {
+    width: 95%;
+}
+
+.dropdown-hdr-btn {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #262626;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-right: 15px;
+}
+
+.dropdown-hdr-btn span {
+    padding-right: 10px;
+}
+
+.dropdown-hdr-btn.dropdown-toggle::after {
+    content: unset;
+}
+
+.sign-out-btn-hdr {
+    border: 1px solid #FFFFFF;
+    color: #262626 !important;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 24px;
+    border-radius: 4px;
+    width: 150px;
+    text-align: center;
+}
+
+.sign-out-btn-hdr span {
+    padding-right: 10px;
+}
+
+.sign-out-btn-hdr img {
+    width: 20px;
+}
+
+.dropdown-hdr-1 .dropdown-menu {
+    background: #FFFFFF;
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 20px;
+    width: 275px;
+}
+
+.dropdown-txt-hdr {
+    color: #262626;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dropdown-support img {
+    width: 90%;
+    text-align: center;
+}
+
+.dropdown-support {
+   padding: 20px 0;
+}
+
+.dropdown-support a,
+.dropdown-support a:hover,
+.dropdown-support a:focus {
+   text-decoration: none;
+}
+
+.dropdown-support .small-txt {
+    font-weight: 400;
+    font-size: 13px;
+    color: #262626;
+}
+
+.dropdown-support .weighted-txt {
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;
+}
+
+.bg-black-body {
+    position: relative;
+}
+
+.bg-black-body .bg-black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+}
+
+.main-data-div {
+    margin-top: 25px;
+    width: 76%;
+}
+
+.welcome-candidate-div {
+    position: relative;
+    background-color: #ECF1F7;
+}
+
+.welcome-candidate-div img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.welcome-candidate-div::after {
+    background-size: cover;
+    position: absolute;
+    content: '';
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    background: #ecf1f7d9;
+    border-radius: 20px 20px 0 0;
+}
+
+.welcome-candidate-msg-div {
+    position: absolute;
+    padding: 13px 15px 0 15px;
+    top: 0px;
+    z-index: 1;
+}
+
+.welcome-candidate-msg-div h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.welcome-candidate-msg-div span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /*letter-spacing: -1px;*/
+}
+
+.candidate-forms-main-div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 75vh;
+}
+
+.verification-steps-main-div {
+    padding: 10px 0;
+}
+
+.verification-step-main-div {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    padding: 0;
+}
+
+.verification-step-main-div a {
+    padding: 20px 15px;
+    display: block;
+}
+
+.verification-step-main-div .verification-type-logo {
+    padding-right: 0;
+}
+
+.verification-step-main-div .verification-type-logo img {
+    width: 100%;
+}
+
+.verification-step-name {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: -19px;
+    padding-left: 5px;
+}
+
+.verification-step-type {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+}
+
+.verification-step-main-div a,
+.verification-step-main-div a:hover,
+.verification-step-main-div a:focus {
+    text-decoration: none;
+}
+
+.verification-step-main-div .arrow-right {
+    display: none;
+    margin-top: 12px;
+}
+
+.verification-step-main-div.active .arrow-right,
+.verification-step-main-div:hover .arrow-right {
+    display: block;
+}
+
+.verification-step-main-div:hover,
+.verification-step-main-div[aria-expanded="true"] {
+    background: #dcdcdc;
+}
+
+.verification-step-main-div[data-toggle="collapse"] {
+    margin-bottom: 0;
+}
+
+.verification-step-main-div.active {
+    background: #FFFFFF;
+    border: 1px solid #E9A240;
+    border-radius: 8px;
+}
+
+.chevron-down {
+    margin-top: 12px;
+}
+
+.verification-component-list {
+    display: block;
+    width: 100%;
+    background: #dcdcdc;
+    padding: 10px 0 15px 0;
+}
+
+.verification-form-count,
+.sidebar-component-name {
+    color: #000000;
+    font-size: 16px;
+}
+
+.verification-form-count,
+.verification-component-div.active .sidebar-component-name {
+    font-weight: 500;
+}
+
+.verification-component-div {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.verification-component-div.active {
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E9A240;
+}
+
+.verification-component-div:hover,
+.verification-component-div:focus {
+    text-decoration: none;
+}
+
+.verification-component-div .arrow-div {
+    text-align: right;
+}
+
+.verification-component-div .arrow-right {
+    display: none;
+    text-align: right;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.verification-component-div.active .arrow-right {
+    display: block;
+}
+
+.candidate-form-fill-details-main-div {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 60px 20px;
+}
+
+.candidate-form-fill-details-main-div .component-name {
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    color: #4D4D4F;
+    margin-bottom: 30px;
+}
+
+.sign-in-input-field {
+    border: 0;
+    width: 100%;
+    background: #F6F6F6;
+    padding: 20px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.content-div .sign-in-input-field {
+    background: #ECF1F7;
+    border-radius: 7px;
+    padding: 20px 10px 10px 10px;
+}
+
+/* The container */
+.custom-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #141414;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #5A3C81;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 13px;
+    border: solid #FBF9FF;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-file-name span {
+    display: block;
+    width: 100%;
+    background: #F5F5F5;
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.custom-file-name span .fa {
+    color: #333333 !important;
+    padding-left: 7px;
+}
+
+.view-document-modal .modal-header h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.view-document-modal .modal-body {
+    padding-top: 0;
+}
+
+.view-document-modal .view-img img {
+    width: 100%;
+}
+
+.btn-close-modal {
+    border: 1px solid #878787;
+}
+
+select.sign-in-input-field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid rgba(205, 205, 205, 0.45);
+    border-right: 1px solid rgba(205, 205, 205, 0.45);
+    padding: 15px 10px;
+    border-radius: 4px;
+    background-image: url(../images/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 13px;
+}
+
+.content-div select.sign-in-input-field {
+    background-image: url(../images/chevron-down-2.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 24px;
+}
+
+.content-div .sign-in-input-field.input-date {
+    background-image: url(../images/input-date.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 18px;
+}
+
+.enter-mobile-number-enter-mobile-number-div .sign-in-input-field {
+    border: 1px solid rgba(205, 205, 205, 0.45);
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.input-wrap {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.content-div .input-wrap {
+    padding-bottom: 25px;
+}
+
+.input-wrap .input-field-txt {
+    font-size: 14px;
+    padding: 13px 14px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    pointer-events: none;
+    transition: .3s ease all;
+    color: #4D4D4F;
+}
+
+.content-div .input-wrap .input-field-txt {
+    padding: 12px 14px;
+}
+
+.sign-in-input-field:focus+span.input-field-txt,
+.sign-in-input-field:valid+span.input-field-txt,
+.sign-in-input-field:disabled+span.input-field-txt,
+.sign-in-input-field:read-only+span.input-field-txt {
+    font-size: 8px;
+    top: 9px;
+    left: 7px;
+    padding: 0 5px;
+}
+
+.validate-input-div {
+    padding-right: 0;
+}
+
+.validate-input-btn-div {
+    padding-left: 0;
+}
+
+.validate-input-div .sign-in-input-field {
+    background: #FFFFFF;
+    border-radius: 0;
+    border: 1px solid rgba(205, 205, 205, 0.45);
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.verify-input-btn {
+    background: #FBF9FF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    padding: 4px 8px;
+    color: #E9A240;
+    font-size: 17px;
+    width: 90%;
+}
+
+.validate-input-btn-div .input-wrap-btn {
+    border: 1px solid rgba(205, 205, 205, 0.45);
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+    padding: 7.5px 0;
+}
+
+.custom-file-input {
+    height: unset;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    width: 100%;
+}
+
+.custom-file-input>.input-file {
+    width: 100%;
+    height: 100px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    zoom: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.btn.btn-file-upload {
+    background-color: #EDEDED;
+    border: 0.5px solid #EDEDED;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+    color: #262626;
+}
+
+.btn-file-upload span {
+    display: block;
+    margin-top: 7px;
+}
+
+.custom-file-input .file-name {
+    color: #000000;
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.custom-file-input-btn-div {
+    padding-left: 0;
+}
+
+.custom-file-input .btn-file-upload img {
+    width: 24px;
+    padding-right: 5px;
+}
+
+.btn.btn-file-upload {
+    height: unset;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.save-btn {
+    border: 0;
+    background: #E9A240;
+    border-radius: 14px;
+    padding: 14px 20px;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+a.save-btn, a.save-btn:hover, a.save-btn:focus {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.consent-form-txt {
+    font-weight: 400;
+    font-size: 13px;
+    color: #262626;
+}
+
+.custon-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #141414;
+    text-align: left;
+}
+
+/* Hide the browser's default radio button */
+.custon-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.custom-checkbox-checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.custom-checkbox-checkmark-2 {
+    top: 16px;
+}
+
+/* On mouse-over, add a grey background color */
+.custon-checkbox-container:hover input ~ .custom-checkbox-checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.custon-checkbox-container input:checked ~ .custom-checkbox-checkmark {
+    background-color: #5A3C81;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.custom-checkbox-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.custon-checkbox-container input:checked ~ .custom-checkbox-checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.custon-checkbox-container .custom-checkbox-checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+.select-upload-signature-type-div {
+    padding: 12px 0 10px 16px;
+    border: 1px solid #ECF1F7;
+    border-radius: 7px;
+}
+
+.select-upload-signature-type-div-2 {
+    padding: 19px 0 19px 16px;
+}
+
+.custon-checkbox-container-small-txt {
+    font-weight: 400;
+    font-size: 13px;
+    color: #6C6F71;
+}
+
+.custon-checkbox-container-main-txt {
+    display: block;
+    margin-top: 10px;
+}
+
+.signature-pad-canvas {
+    width: 100%;
+    border: 1px solid #141414;
+    border-radius: 7px;
+}
+
+.custom-checkbox-tick-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-checkbox-terms-and-conditions-container {
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox-tick-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox-tick-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox-tick-container:hover input ~ .custom-checkbox-tick-checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox-tick-container input:checked ~ .custom-checkbox-tick-checkmark {
+    background-color: #5cb85c;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.custom-checkbox-tick-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox-tick-container input:checked ~ .custom-checkbox-tick-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox-tick-container .custom-checkbox-tick-checkmark:after {
+    left: 10px;
+    top: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-radio .custom-control-label::before {
+    height: 20px;
+    width: 20px;
+}
+
+.custom-radio .custom-control-label::after {
+    top: 6px;
+    left: -21px;
+}
+
+.custom-radio-2 .custom-control-label::after {
+    left: -20px;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+    border-color: #5A3C81;
+    background-color: #5A3C81;
+}
+
+.custom-modal .modal-dialog {
+    background: #F5F5F5;
+    padding: 15px 25px;
+}
+
+.custom-modal .modal-content {
+    background: #F5F5F5;
+    border: 0;
+}
+
+.custom-modal h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #141414;
+}
+
+.custom-modal .long-description-div {
+    font-weight: 400;
+    font-size: 13px;
+    color: #262626;
+}
+
+.submitted-successfully-div {
+    text-align: center;
+}
+
+.submitted-successfully-div img {
+    width: 75%;
+}
+
+.submitted-successfully-div span {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #141414;
+}
+
+.custom-modal-dialog-centered {
+    margin-top: 12%;
+}
+
+.sign-in-bg-1 {
+    height: 100vh;
+    background: #5A3C81;
+}
+
+.sign-in-left-section {
+    position: relative;
+    text-align: center;
+}
+
+.sign-in-left-section img {
+    width: 35%;
+    margin-top: 20%;
+}
+
+.sign-in-left-section h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.sign-in-left-section p {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.sign-in-bg-2 {
+    width: 100%;
+    background-image: url("../images/desktop/sign-in-bg-img.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sign-in-main-div {
+    text-align: center;
+}
+
+.sign-in-main-div img {
+    width: 36%;
+    margin-top: 15%;
+}
+
+.fs-slogan {
+    font-weight: 400;
+    font-size: 15px;
+    color: #4D4D4F;
+    margin-top: 15px;
+}
+
+.sign-in-input-div {
+    margin-top: 150px;
+}
+
+.signin-input-wrap .sign-in-input-field {
+    background: #FFFFFF;
+    border: 1px solid rgba(205, 205, 205, 0.45);
+    border-radius: 4px;
+}
+
+.signin-input-wrap select.sign-in-input-field {
+    background-image: url(../images/chevron-down-2.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 24px;
+}
+
+select.sign-in-input-field-2 {
+    border-right: 0 !important;
+}
+
+input.sign-in-input-field-2 {
+    border-left: 0 !important;
+}
+
+.sign-in-btn {
+    background: #5A3C81;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    border: 0;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.rights-reserved-txt {
+    font-weight: 400;
+    font-size: 15px;
+    color: #4D4D4F;
+    margin-top: 15px;
+}
+
+.sign-in-otp-input-field {
+    border: 0;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 15px 10px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: center;
+}
+
+.resend-otp-div {
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resend-otp-div a {
+    color: #5A3C81;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.sign-in-input-div .input-wrap {
+    padding-bottom: 0;
+}
+
+.sign-in-input-inner-div {
+    padding-bottom: 50px;
+}
+
+.error-msg-small, .error-msg {
+    font-size: 13px;
+}
+
+#modal-successfull-submission .modal-dialog {
+    border-radius: 16px;
+}
+
+#modal-terms-and-conditions .modal-dialog {
+    border-radius: 8px;
+}

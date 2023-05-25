@@ -1,0 +1,62 @@
+[
+  	{
+  		"id" : "1",
+    	"field_name": "first_name",
+    	"show_field_name": "candidate_first_name"
+  	},
+  	{
+  		"id" : "10",
+    	"field_name": "candidate_name",
+    	"show_field_name": "candidate_name"
+  	},
+  	{
+  		"id" : "12",
+    	"field_name": "loginid",
+    	"show_field_name": "loginid"
+  	},
+  	{ 
+  		"id" : "2",
+    	"field_name": "last_name",
+    	"show_field_name": "candidate_last_name"
+  	},
+  	{
+  		"id" : "3",
+    	"field_name": "father_name",
+    	"show_field_name": "candidate_father_name"
+  	},
+  	{
+  		"id" : "4",
+    	"field_name": "phone_number",
+    	"show_field_name": "candidate_phone_number"
+  	},
+  	{
+  		"id" : "5",
+    	"field_name": "email_id",
+    	"show_field_name": "candidate_email_id"
+  	},
+  	{
+  		"id" : "6",
+    	"field_name": "employee_id",
+    	"show_field_name": "candidate_employee_id"
+  	},
+  	{
+  		"id" : "7",
+    	"field_name": "client_name",
+    	"show_field_name": "client_name"
+  	},
+  	{
+  		"id" : "8",
+    	"field_name": "client_email",
+    	"show_field_name": "client_email_id"
+  	},
+  	{
+  		"id" : "9",
+    	"field_name": "client_url",
+    	"show_field_name": "candidate_login_link"
+  	},
+  	{
+  		"id" : "11",
+    	"field_name": "client_url",
+    	"show_field_name": "otp_or_password"
+  	}
+]

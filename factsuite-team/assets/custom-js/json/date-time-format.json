@@ -1,0 +1,191 @@
+[
+    {  
+        "id": 0,
+        "code": "d/m/Y",
+        "name": "dd/mm/yyyy",
+        "php_code": "d/m/Y",
+        "js_code": "DD/MM/YYYY"
+    },
+    {  
+        "id": 1,
+        "code": "m/d/Y",
+        "name": "mm/dd/yyyy",
+        "php_code": "m/d/Y",
+        "js_code": "MM/DD/YYYY"
+    },
+    {
+        "id": 2,
+        "code": "d/m/Y H:i",
+        "name": "dd/mm/yyyy hh:ii",
+        "php_code": "d/m/Y H:i",
+        "js_code": "DD/MM/YYYY H:mm"
+    },
+    {
+        "id": 3,
+        "code": "m/d/Y H:i",
+        "name": "mm/dd/yyyy hh:ii",
+        "php_code": "m/d/Y H:i",
+        "js_code": "MM/DD/YYYY H:mm"
+    },
+    {
+        "id": 4,
+        "code": "d-m-Y",
+        "name": "dd-mm-yyyy",
+        "php_code": "d-m-Y",
+        "js_code": "DD-MM-YYYY"
+    },
+    {
+        "id": 5,
+        "code": "m-d-Y",
+        "name": "mm-dd-yyyy",
+        "php_code": "m-d-Y",
+        "js_code": "MM-DD-YYYY"
+    },
+    {
+        "id": 6,
+        "code": "d-m-Y H:i",
+        "name": "dd-mm-yyyy hh:ii",
+        "php_code": "d-m-Y H:i",
+        "js_code": "DD-MM-YYYY H:mm"
+    },
+    {
+        "id": 7,
+        "code": "m-d-Y H:i",
+        "name": "mm-dd-yyyy hh:ii",
+        "php_code": "m-d-Y H:i",
+        "js_code": "MM-DD-YYYY H:mm"
+    },
+    {
+        "id": 8,
+        "code": "Y/d/m",
+        "name": "yyyy/dd/mm",
+        "php_code": "Y/d/m",
+        "js_code": "YYYY/DD/MM"
+    },
+    {
+        "id": 9,
+        "code": "Y/m/d",
+        "name": "yyyy/mm/dd",
+        "php_code": "Y/m/d",
+        "js_code": "YYYY/MM/DD"
+    },
+    {
+        "id": 10,
+        "code": "Y/d/m H:i",
+        "name": "yyyy/dd/mm hh:ii",
+        "php_code": "Y/d/m H:i",
+        "js_code": "YYYY/DD/MM H:mm"
+    },
+    {
+        "id": 11,
+        "code": "Y/m/dd H:i",
+        "name": "yyyy/mm/dd hh:ii",
+        "php_code": "Y/m/d H:i",
+        "js_code": "YYYY/MM/DD H:mm"
+    },
+    {
+        "id": 12,
+        "code": "Y-d-m",
+        "name": "yyyy-dd-mm",
+        "php_code": "Y-d-m",
+        "js_code": "YYYY-DD-MM"
+    },
+    {
+        "id": 13,
+        "code": "Y-m-d",
+        "name": "yyyy-mm-dd",
+        "php_code": "Y-m-d",
+        "js_code": "YYYY-MM-DD"
+    },
+    {
+        "id": 14,
+        "code": "Y-d-m H:i",
+        "name": "yyyy-dd-mm hh:ii",
+        "php_code": "Y-d-m H:i",
+        "js_code": "YYYY-DD-MM H:mm"
+    },
+    {
+        "id": 15,
+        "code": "Y-m-d H:i",
+        "name": "yyyy-mm-dd hh:ii",
+        "php_code": "Y-m-d H:i",
+        "js_code": "YYYY-MM-DD H:mm"
+    },
+    {
+        "id": 16,
+        "code": "Y-M-d H:i",
+        "name": "yyyy-MM-dd hh:ii",
+        "php_code": "Y-M-d H:i",
+        "js_code": "YYYY-MM-DD H:mm"
+    },
+    {
+        "id": 17,
+        "code": "d/m/Y h:i A",
+        "name": "yyyy-MM-dd hh:ii A",
+        "php_code": "d/m/Y h:i A",
+        "js_code": "DD/MM/YYYY h:mm A"
+    },
+    {
+        "id": 18,
+        "code": "d/m/Y h:i a",
+        "name": "yyyy-MM-dd hh:ii a",
+        "php_code": "d/m/Y h:i a",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 19,
+        "code": "d/m/Y h:i A",
+        "name": "dd/mm/yyyy hh:ii A",
+        "php_code": "d/m/Y h:i A",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 20,
+        "code": "d/m/Y h:i a",
+        "name": "dd/mm/yyyy hh:ii a",
+        "php_code": "d/m/Y h:i a",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 21,
+        "code": "m/d/Y h:i A",
+        "name": "mm/dd/yyyy hh:ii A",
+        "php_code": "m/d/Y h:i A",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 22,
+        "code": "m/d/Y h:i a",
+        "name": "mm/dd/yyyy hh:ii a",
+        "php_code": "m/d/Y h:i a",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 23,
+        "code": "d-m-Y h:i A",
+        "name": "dd-mm-yyyy hh:ii A",
+        "php_code": "d-m-Y h:i A",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 24,
+        "code": "d-m-Y h:i a",
+        "name": "dd-mm-yyyy hh:ii a",
+        "php_code": "d-m-Y h:i a",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 25,
+        "code": "m-d-Y h:i A",
+        "name": "mm-dd-yyyy hh:ii A",
+        "php_code": "m-d-Y h:i A",
+        "js_code": "DD/MM/YYYY h:mm a"
+    },
+    {
+        "id": 26,
+        "code": "m-d-Y h:i a",
+        "name": "mm-dd-yyyy hh:ii a",
+        "php_code": "m-d-Y h:i a",
+        "js_code": "DD/MM/YYYY h:mm a"
+    }
+]

@@ -1,0 +1,314 @@
+[
+    {  
+        "id": 0,
+        "name": "New Parent Account",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 1,
+        "name": "New Child Account",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 2,
+        "name": "Geographical Expansion - Parent",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 3,
+        "name": "Geographical Expansion - Child",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 4,
+        "name": "Others",
+        "status": "1",
+        "flag": "0"
+    }, {  
+        "id": 5,
+        "name": "Parent Account Churn",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 6,
+        "name": "Child Account Churn",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 7,
+        "name": "Account Churn",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 8,
+        "name": "Account Dorment",
+        "status": "1",
+        "flag": "1"
+    },{  
+        "id": 33,
+        "name": "Client dissatisfied",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 34,
+        "name": "account closed",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 35,
+        "name": "Agreement expired",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 36,
+        "name": "Agreement Terminated",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 37,
+        "name": "Contract Lapsed ",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 38,
+        "name": "Dissatisfied Client",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 39,
+        "name": "Better Offer from other vendor",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 40,
+        "name": "Business shutdown",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 41,
+        "name": "Budget constraints",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 42,
+        "name": "Not meeting the expectations",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 43,
+        "name": "CRM issues",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 44,
+        "name": "Service Issues",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 45,
+        "name": "Not meeting the TAT",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 46,
+        "name": "Report issues",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 37,
+        "name": "Compliance issues",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 38,
+        "name": "Company takeover",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 49,
+        "name": "Leadership Change",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 50,
+        "name": "No value addition ",
+        "status": "1",
+        "flag": "1"
+    },
+
+    {  
+        "id": 51,
+        "name": "False Sales Promise ",
+        "status": "1",
+        "flag": "1"
+    }, {  
+        "id": 9,
+        "name": "Others",
+        "status": "1",
+        "flag": "1"
+    },{  
+        "id": 10,
+        "name": "Standard proposal accepted.",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 11,
+        "name": "Pitched hike in the price.",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 12,
+        "name": "Discount as per client's demand.",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 13,
+        "name": "Discount due to churn risk.",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 14,
+        "name": "Discount due to internal price revision.",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 15,
+        "name": "Others",
+        "status": "2",
+        "flag": "0"
+    }, {  
+        "id": 16,
+        "name": "Increase - Renewal clause",
+        "status": "2",
+        "flag": "1"
+    }, {  
+        "id": 17,
+        "name": "Increase due to internal revision",
+        "status": "2",
+        "flag": "1"
+    }, {  
+        "id": 18,
+        "name": "Decrease - Client demand",
+        "status": "2",
+        "flag": "1"
+    }, {  
+        "id": 19,
+        "name": "Decrease - Churn Risk",
+        "status": "2",
+        "flag": "1"
+    }, {  
+        "id": 20,
+        "name": "Decrease - Value added",
+        "status": "2",
+        "flag": "1"
+    }, {  
+        "id": 21,
+        "name": "Others",
+        "status": "2",
+        "flag": "1"
+    }, {  
+        "id": 22,
+        "name": "One time client request",
+        "status": "3",
+        "flag": "0"
+    } , {  
+        "id": 23,
+        "name": "Regular client request",
+        "status": "3",
+        "flag": "0"
+    } , {  
+        "id": 24,
+        "name": "Others",
+        "status": "3",
+        "flag": "0"
+    } , {  
+        "id": 25,
+        "name": "New User",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 26,
+        "name": "Account Transition",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 27,
+        "name": "adhoc responsibility",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 28,
+        "name": "Others",
+        "status": "4",
+        "flag": "0"
+    } , {  
+        "id": 29,
+        "name": "Employee Exit",
+        "status": "4",
+        "flag": "1"
+    } , {  
+        "id": 30,
+        "name": "Changes in the role",
+        "status": "4",
+        "flag": "1"
+    } , {  
+        "id": 31,
+        "name": "Temporarly Need",
+        "status": "4",
+        "flag": "1"
+    } , {  
+        "id": 32,
+        "name": "User Exit",
+        "status": "4",
+        "flag": "1"
+    }  , {  
+        "id": 53,
+        "name": "User Moved to other role",
+        "status": "4",
+        "flag": "1"
+    }  , {  
+        "id": 54,
+        "name": "User moved to other team",
+        "status": "4",
+        "flag": "1"
+    }  , {  
+        "id": 55,
+        "name": "Others",
+        "status": "4",
+        "flag": "1"
+    } 
+]   

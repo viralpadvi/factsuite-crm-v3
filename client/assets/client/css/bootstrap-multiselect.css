@@ -1,0 +1,29 @@
+span.multiselect-native-select{position:relative}
+span.multiselect-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}
+.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}
+.multiselect-container .input-group{margin:5px}
+.multiselect-container .multiselect-reset .input-group{width:93%}
+.multiselect-container>li{padding:0}
+.multiselect-container>li>a.multiselect-all label{font-weight:700}
+.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px;height:100%;font-weight:700;}
+.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}
+.multiselect-container>li>a{padding:0}
+.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer; padding:3px 12px;}
+.multiselect-container>li>a>label.checkbox,.multiselect-container>li>a>label.radio{margin:0}
+.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}
+.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 20px 3px 40px}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}
+.add-package-bx .dropdown-toggle::after{ display:none;}
+.add-package-bx button.multiselect.dropdown-toggle.btn.btn-default{ border: 1px solid rgba(60, 10, 100, 0.4); width: 100%; padding: 9px 39px 9px 12px; font-size: 14px; color: #381653;
+ border-radius: 3px; margin-bottom: 3px; background: url(../images/down.png) no-repeat #FFF;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background-position: right 10px center;
+    background-size: 12px;
+	text-align:left;}
+.add-package-bx .btn-group{ width:100%;}
+.add-package-bx .dropdown-menu.show{ width:100%; box-shadow: 0px 3px 66px #00000017; border: 0; border-radius: 5px; padding: 12px 7px;}
